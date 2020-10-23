@@ -1,0 +1,160 @@
+*{
+margin: 0%;
+padding: 0%;
+font-size:40%;
+}
+body {
+color:rgba(255,255,255,1);
+font-family: 'Philosopher', sans-serif;
+font-size: 4em;
+text-align: center;
+background-color: rgba(255,255,255,255);
+}
+nav {
+    width:100%;
+}
+nav ul{
+ width:100%;
+ height:70px;
+ display:flex;
+ margin:0%;
+ margin-top:5%;
+ padding-left:0%;
+ font-size: 1em;
+ flex-flox:row wrap;
+ justify-content:space-around;
+ align-items:stretch;
+ align-content:center;
+ color:rgba(255, 255, 255, 1);
+ background-color:rgba(64, 185, 40);
+ list-style:none;
+}
+nav li{
+  flex-basis:50%;
+  font-size: 3.5em;
+  text-align:center;
+}
+nav li a:link{
+ color:rgba(250, 224, 238, 1);
+ font-size:2.2em;
+ text-decoration:none;
+}
+
+
+section,article{
+    width: 49%;
+    float: left;
+}
+section:nth-child(2){
+    width: 47%;
+    display:flex;
+    margin: 3%;
+    margin-top: 5%;
+    margin-left: none;
+    padding: 0 4%;
+    flex-flow: column wrap;
+    flex-basis:50%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3em;
+    align-content: center;
+    text-align:justify;
+    background-color: rgba(0, 0, 0);
+    border-radius: 20px;
+    order: 1;
+}
+section:nth-child(2) h2{
+    width: 100%;
+    color: rgba(223,5,5,0.42);
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2em;
+}
+
+section:nth-child(2) h3{
+    width: 100%;
+    margin-top: -2%;
+    color: rgba(223,5,5,0.42);
+    font-size: 1.5em;
+    font-family: 'Droid Sans Mono', monospace;
+    text-align: left;
+}
+section:nth-child(2) p{
+  margin-top: 8%;
+  }
+
+section:nth-child(2) article{
+   width: 90%;
+}
+section:nth-child(3) {
+  width:35%;
+    display: flex; /*las cajas sean flexibles*/
+    margin:0% auto;
+    margin-top: 5%;  
+    margin-right: 4%;
+    margin-bottom: 7%; /*tamaño del margen de fondo*/
+    padding: 0 2%;/*sirve para el tamaño de releno de las secciones */
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border:1px rgba(51,85,177,0.89);
+    box-sizing:border-box;
+    order: 2;
+}
+ img{
+  max-width: 100%;
+}
+ section:nth-child(3) h2{
+    color: rgba(0, 0, 0);
+    font-family: 'Unica One', cursive;
+    font-size: 8em;
+}
+ section:nth-child(3) h3{
+    margin-top: 1%;
+    color: rgba(81, 55, 158, 0.84);
+    font-family: 'Droid Sans Mono', monospace;
+    font-size: 5em;
+}
+
+section:nth-child(3) article h3{
+     margin-top: 5%;
+     padding:  1%;
+     text-align: left;
+     font-size: 4em;
+}
+
+section:nth-child(3) article li{
+  font-size: 2em;
+}
+
+section:nth-child(3) article p{
+  font-size: 2em;
+}
+
+
+
+section:nth-child(3) article{
+    width:  90%;
+    margin-top: 17%;
+    padding: 0 10%;
+    text-align: left; 
+    background-color:rgba(115, 105, 105, 0.27);
+    border-radius: 20px;
+}
+
+figure{
+    width: 100%;
+article figure{
+    width: 50%;
+}
+ footer{
+  width: 100%;
+  margin: 5% auto 0% auto;
+  padding: 2% 1%;
+  clear:left;
+  font-size:1em;
+  text-align: center;
+  background-color:rgba(200,28,25,0.27);
+}
+
+
